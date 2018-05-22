@@ -1,7 +1,11 @@
 #include <string.h>
 #include "hangman-io.h"
 #include "words.h"
-#include "cs136.h"
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 //capitalize returns the capitalized char if the char is 
 //not a capital letter. Else return the char. 
